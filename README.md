@@ -1,8 +1,13 @@
-# Your Project's Name
+# Gotham City Police Department Revamped Website
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+<!--One or two paragraphs providing an overview of your project. Tell us about your project.
 
-Essentially, this part is your sales pitch.
+Essentially, this part is your sales pitch.-->
+
+Everyone knows the reputation of Gotham City with its rampant crime and many terrifying villians. You live in this city with constant fear about what's the next horrifying thing that's gonna happen next. You don't know how to keep yourself safe.
+You're scared.
+So how do you keep yourself safe? You need information about these crimes and villians to keep yourself, your family and friends safe from the dangers of this city. You want to know what the police can do to keep you safe and how we're keeping you safe. You can also tell us any information you have on these crimes and villians so we can preemptively investigate them and arrest them before they can hurt you.
+With the Gotham City Police Department Website,you can do all that and more. Our number 1 priority is keeping you the civilian out of harm's way.
 
 ## Design Process
 

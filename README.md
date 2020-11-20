@@ -27,7 +27,9 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url. --
 * The site user goal is to lessen to the effects of crime on Gotham's population by making people more aware of the crimes and villains currently so that causalities lost and impact of the damage is lesser
 
 Links:
-ID-Assg01-Wireframes: https://xd.adobe.com/view/b89d4c8d-d98c-4693-a9fc-fc295c91df12-edce/  
+ID-Assg01-Wireframes: 
+https://xd.adobe.com/view/b89d4c8d-d98c-4693-a9fc-fc295c91df12-edce/
+[Adobe XD](https://xd.adobe.com/view/b89d4c8d-d98c-4693-a9fc-fc295c91df12-edce/)
 ## Features
 
 <!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. -->

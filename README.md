@@ -24,7 +24,13 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url. --
 
 * The audience of this website is the innocent citizens of Gotham City
 * The external user goal is for the citizens to find information about the kinds of crimes that are happening currently via a news and upate feature and the villians that are running about via a most wanted feature so that they can keep themselves safe
-* The site user goal is to lessen to the effects of crime on Gotham's population by making people more aware of the crimes and villains currently so that causalities lost and impact of the damage is lesser
+* The site user goal is to lessen to the effects of crime on Gotham's population by making people more aware of the crimes and villains currently so that causalities lost and impact of the damage is lesser. Thus making the citizens feel safer living in Gotham City
+* My project is the best way to achieve this as the police has the resources and information to provide my website with the best possible data on crimes happening in the city so that I can inform the public with reliable and accurate information about crimes to safeguard the citizen properly and well.
+* List of user stories for the project:
+* As a citizen, I want to keep myself safe from the criminals and villians in Gotham City, so that I won't get hurt or killed by them.
+* As a police commissioner, I want to public informed on the crimes that are happening in the city, so that the citizens I protect and serve feel safe
+* As a citizen, I want to be informed on the crimes happening in the city, so that I can avoid that area to prevent myself from being able to get hurt
+* As a citizen, I want to be able to inform the police on suspicious activities that I've witnessed, so that the police can check it out and see if the person is a criminal or not a criminal and whether to arrest them
 
 Links:
 ID-Assg01-Wireframes: 

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Roboto, Ubuntu, 'Open Sans', sans-serif;
+}
+ 
+/* .backgroundPic {
+    position: relative;
+} */
+
+.navigationMenu {
+    background-color: navy;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: navy; 
+}
+  
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navBar a:hover {
+    background-color: white;
+    color: navy;
+}
+
+.navBar a.home {
+    top: 54px;
+    left: 500px;
+    position: absolute;
+}
+
+.navBar a.home:hover {
+    background-color:  rgba(255, 255, 255, 0.0);
+}
+
+.navBar a.about {
+    top: 62px;
+    left: 600px;
+    position: absolute;
+}
+
+.navBar a.contact {
+    top: 62px;
+    left: 700px;
+    position: absolute;
+}
+
+.logo {
+    top: 40px;
+    left: 300px;
+    position: absolute;
+}
+
+.content {
+    top: 125px;
+    position: absolute;
+}

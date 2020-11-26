@@ -1,4 +1,5 @@
 body {
+    background-color: lightblue;
     margin: 0;
     font-family: Roboto, Ubuntu, 'Open Sans', sans-serif;
 }
@@ -7,58 +8,63 @@ body {
     position: relative;
 } */
 
-.navigationMenu {
-    background-color: navy;
+.header {
+    top: 0px;
+    width: 1920px;
+    height: 5px;
+    padding: 4.8%;
+    background-color: white;
+    position: absolute;
 }
 
 .navBar {
     overflow: hidden;
-    background-color: navy; 
 }
   
 .navBar a {
     float: left;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
+    border: black 5px;
     text-decoration: none;
     font-size: 17px;
 }
   
 .navBar a:hover {
-    background-color: white;
-    color: navy;
+    background-color: red;
+    color: white;
 }
 
 .navBar a.home {
-    top: 54px;
-    left: 500px;
-    position: absolute;
+    top: 22px;
+    left: 475px;
+    position: absolute; 
 }
 
-.navBar a.home:hover {
-    background-color:  rgba(255, 255, 255, 0.0);
-}
+/* .navBar a.home:hover {
+    background-color:  rgba(255, 255, 255, 0.0); 
+}*/
 
 .navBar a.about {
-    top: 62px;
-    left: 600px;
+    top: 32px;
+    left: 560px;
     position: absolute;
 }
 
 .navBar a.contact {
-    top: 62px;
-    left: 700px;
+    top: 32px;
+    left: 660px;
     position: absolute;
 }
 
 .logo {
-    top: 40px;
-    left: 300px;
+    top: 9px;
+    left: 325px;
     position: absolute;
 }
 
 .content {
-    top: 125px;
+    top: 175px;
     position: absolute;
 }

@@ -1,24 +1,20 @@
 body {
     background-color: lightblue;
-    margin: 0;
     font-family: Roboto, Ubuntu, 'Open Sans', sans-serif;
 }
  
-/* .backgroundPic {
-    position: relative;
-} */
-
-.header {
-    top: 0px;
-    width: 1920px;
-    height: 5px;
-    padding: 4.8%;
-    background-color: white;
-    position: absolute;
-}
+.backgroundPic {
+    top: 1000px;
+} 
 
 .navBar {
     overflow: hidden;
+    background-color: white;
+    top: 0px;
+    width: 1920px;
+    height: 100px;
+    padding: 2.5%;
+    /* position: fixed;*/
 }
   
 .navBar a {
@@ -28,7 +24,7 @@ body {
     padding: 14px 16px;
     border: black 5px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 40px;
 }
   
 .navBar a:hover {
@@ -37,34 +33,26 @@ body {
 }
 
 .navBar a.home {
-    top: 22px;
+    top: 50px;
     left: 475px;
-    position: absolute; 
 }
-
-/* .navBar a.home:hover {
-    background-color:  rgba(255, 255, 255, 0.0); 
-}*/
 
 .navBar a.about {
     top: 32px;
     left: 560px;
-    position: absolute;
 }
 
 .navBar a.contact {
     top: 32px;
-    left: 660px;
-    position: absolute;
+    left: 100px;
 }
 
 .logo {
-    top: 9px;
+    top: 0px;
     left: 325px;
-    position: absolute;
 }
 
 .content {
-    top: 175px;
-    position: absolute;
+    top: 300px;
+    margin-top: 30px;
 }

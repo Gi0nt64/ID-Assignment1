@@ -10,7 +10,7 @@ body {
     width: 100%;
     height: 27px;
     padding: 2.5%;
-    position: fixed;
+    position: fixed
 }
   
 .navBar a {
@@ -50,15 +50,56 @@ body {
 .navBar a.contact {
     position: relative;
     top: -22px;
-    left: 578px;
+    left: 575px;
 }
 
-.backgroundPic {
-    top: 200px;
-    left: 325px;
+#backgroundPic {
+    position: relative;
+    top: 103px;
+    z-index: -1;
+}
+
+#advertisement {
+   position: absolute;
+   top: 210px;
+   left: 35px;
+   background-color: rgba(0, 0, 0, 0);
+   color: white;
+   font-size: 28px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+#importantInfo {
+    position: absolute;
+    top: 0px;
+    right: 65px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 22px;
+    padding: 2.5px 20px;
 }
 
 .content {
-    top: 300px;
-    margin-top: 30px;
+    margin-top: 100px;
+}
+
+#news {
+    background-color: navy;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+#news h2 {
+    color: white;
+}
+
+#news p {
+    color: white;
+}
+
+#news a {
+    color: white;
 }

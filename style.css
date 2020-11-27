@@ -10,7 +10,8 @@ body {
     width: 100%;
     height: 27px;
     padding: 2.5%;
-    position: fixed
+    position: fixed;
+    z-index: 2;
 }
   
 .navBar a {
@@ -80,6 +81,11 @@ body {
     padding: 2.5px 20px;
 }
 
+#importantInfo hr {
+    background-color: black;
+    height: 3px;
+}
+
 .content {
     display: flex;
     flex-flow: row wrap;
@@ -87,23 +93,33 @@ body {
 }
 
 #news {
-    background-color: navy;
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
     padding: 2.5%;
     width: 45%;
     text-align: center;
 }
 
 #news h2 {
+    font-size: 42px;
     color: white;
+    margin-bottom: 50px;
 }
 
+
 #news p {
+    font-size: 20px;
     color: white;
 }
 
 #news a {
+    font-size: 20px;
     color: white;
     text-decoration: none;
+}
+
+#news hr {
+    height:1.5px;
+    background-color: white;
 }
 
 #news a:hover {
@@ -145,7 +161,7 @@ body {
 .jokerP {
     position: absolute;
     right: 160px;
-    top: 180px;
+    top: 170px;
     text-align: center;
     font-size: 20px;
 }
@@ -174,4 +190,30 @@ body {
     top: 470px;
     text-align: center;
     font-size: 20px;
+}
+
+footer {
+    color: black;
+}
+
+.aboutContent {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #0396FF;
+    padding: 2px 5px;
+}
+
+.aboutContent h1 {
+    font-size: 42px;
+    color: white;
+}
+
+.description {
+    font-size: 20.5px;
+    color: white;
+}
+
+.promise {
+    font-size: 28px;
+    color: white;
 }

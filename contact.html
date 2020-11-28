@@ -7,7 +7,7 @@
         <link href="normalize.css" rel="stylesheet" type="text/css">
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
+    <body class="contact_body">
         <header>
             <nav class="navBar">
                 <img class='logo' src="GCPD_icon.png" width="100px">
@@ -17,6 +17,49 @@
                 <a class="contact" href="contact.html" title='Click here to go to contact us page'>Contact Us</a>
             </nav>
         </header>
+        <h1 class="witnessH1">ONLINE WITNESS FORM</h1>
+        <div class="witness">
+            <form action="action_page.php" method="POST">
+                <h2>PERSONAL DETAILS</h2>
+                <label for="fName" id="fNameLabel">FULL NAME: </label>
+                <input type="text" name="fName" id="fNameInput" required>
+                <label for="phoneNo" id="phoneNo">PHONE NUMBER (in the form of xxx-xxx-xxxx): </label>
+                <input type="tel" name="phoneNo" id="phoneNo" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+                <label for="email" id="emailAddress">EMAIL ADDRESS: </label>
+                <input type="email" name="email" id="emailAddress" required><br><br>
+                <h2>CRIME INFORMATION</h2>
+                <h4>CATERGORY</h4>
+                <label for="crime1" id="crime1">PERSONAL CRIMES</label>
+                <input type="checkbox" id="crime1" name="crime" value="Personal Crimes"><br>
+                <label for="crime2" id="crime2">PROPERTY CRIMES</label>
+                <input type="checkbox" id="crime2" name="crime" value="Property Crimes"><br>
+                <label for="crime3" id="crime3">TRAFFIC MATTERS</label>
+                <input type="checkbox" id="crime3" name="crime" value="Traffic Matters"><br>
+                <label for="crime4" id="crime4">OTHERS</label>
+                <input type="checkbox" id="crime4" name="crime" value="Others"><br><br>
+                <label for="when" id="when">WHEN DID THE CRIME HAPPEN: </label>
+                <input type="date" id="when" name="when" required>
+                <label for="time" id="time">TIME: </label>
+                <input type="time" id="time" name="time" required><br><br>
+                <label for="details" id="details">DETAILS:</label><br><br>
+                <textarea id="details" name="details" rows="15" cols="176.5" required></textarea><br><br>
+                <input type="submit" id="submit" name="btnSubmit" value="Submit">
+            </form>
+        </div>
+        <div class='social media'>
+            <a class="twitter" href="https://twitter.com/nypdnews" title='Our twitter account'><img src="twitter.png"
+            alt = "The image has failed to load.Try to reload the page again or try to get better internet connection." width="200px"></a>
+            <p>Twitter</p>
+            <a class="facebook" href="https://www.facebook.com/NYPD" title='Our facebook account'><img src="facebook.png"
+            alt = "The image has failed to load.Try to reload the page again or try to get better internet connection." width="100px"></a>
+            <p>Facebook</p>
+            <a class="instagram" href="https://www.instagram.com/nypd/" title='Our instagram account'><img src="instagram.png"
+            alt = "The image has failed to load.Try to reload the page again or try to get better internet connection." width="100px"></a>
+            <p>instagram</p>
+            <a class="facebook" href="https://www.youtube.com/nypd" title='Our youtube account'><img src="youtube.png"
+            alt = "The image has failed to load.Try to reload the page again or try to get better internet connection." width="100px"></a>
+            <p>Youtube</p>
+        </div>
         <footer>
             <p class='credits'>Design by Poh Gao Yue</p>
             <p class="copyright">Copyright © 2020 Gotham City and the GCPD. All rights reserved.</p>

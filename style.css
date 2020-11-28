@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: navy;
     font-family: Roboto, Ubuntu, 'Open Sans', sans-serif;
 }
 
@@ -193,7 +193,8 @@ body {
 }
 
 footer {
-    color: black;
+    background-color: navy;
+    color: white;
 }
 
 .aboutContent {
@@ -216,6 +217,11 @@ footer {
 .promise {
     font-size: 28px;
     color: white;
+}
+
+.organisationStructure {
+    background-color: lightblue;
+    padding: 5px;
 }
 
 .organisationStructure h1 {
@@ -243,8 +249,104 @@ footer {
     background-color: royalblue;
     color: white;
     font-size: 24px;
-  }
+}
 
-  .structure td {
-      font-size: 20px;
-  }
+.structure td {
+    font-size: 20px;
+}
+
+.contact_body {
+    background-color: navy;
+}
+
+.witnessH1 {
+    margin-top: 100px;
+    color: white;
+    background-color: navy;
+    padding: 8px;
+}
+.witness {
+    padding: 15px;
+    background-color: #ececec;
+    border: 10px solid #fceb40;
+}
+
+.form {
+    display: flex;
+    justify-content: left;
+}
+
+form h2 {
+    padding: 15px;
+    color: black;
+    background-color: #fceb40;
+}
+
+#fNameLabel {
+    position: relative;
+    left: 20px;
+}
+
+#fNameInput {
+    position: relative;
+    left: 54px;
+    width: 30%;
+}
+#phoneNo {
+    position: relative;
+    left: 130px;
+    width: 30%;
+}
+
+#emailAddress {
+    position: relative;
+    left: 20px;
+    width: 30%;
+}
+
+form h4 {
+    position: relative;
+    left: 20px;
+    font-size: 20px ;
+}
+
+#crime1 {
+    position: relative;
+    left: 20px;
+}
+
+#crime2 {
+    position: relative;
+    left: 20px;
+}
+
+#crime3 {
+    position: relative;
+    left: 20px;
+}
+
+#crime4 {
+    position: relative;
+    left: 20px;
+}
+
+#when {
+    position: relative;
+    left: 20px;
+    width: 23%;
+}
+
+#time {
+    position: relative;
+    left: 100px;
+}
+
+#details {
+    position: relative;
+    left: 20px;
+}
+
+#submit {
+    position: relative;
+    left: 20px;
+}

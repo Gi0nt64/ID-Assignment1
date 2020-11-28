@@ -350,3 +350,56 @@ form h4 {
     position: relative;
     left: 20px;
 }
+
+.socialMedia {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.twitter {
+    position: relative;
+    top: -4px;
+    left: 50px;
+}
+.facebook {
+    position: relative;
+    right: 40px;
+}
+.instagram {
+    position: relative;
+    top: -4px;
+    right: 60px;
+}
+
+.youtube {
+    position: relative;
+    right: 85px;
+}
+
+.newsAndUpdate {
+    background-color: #ececec;
+    margin-top: 100px;
+    padding: 5px;
+
+}
+
+.newsAndUpdate h1 {
+    text-align: center;   
+    font-size: 42px;
+}
+
+.newsAndUpdate h2 {
+    text-align: center;   
+    font-size: 24px;
+}
+
+.newsAndUpdate b {
+    color: red;
+}
+
+.newsAndUpdate p {
+    font-size: 18px;
+}

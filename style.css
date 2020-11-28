@@ -401,5 +401,11 @@ form h4 {
 }
 
 .newsAndUpdate p {
+    text-align: center;
     font-size: 18px;
+}
+
+.newsAndUpdate hr {
+    color: black;
+    height: 2.5px;
 }
